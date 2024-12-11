@@ -4,8 +4,8 @@ A Step-by-step guide designed to help system administrators set up **RRD File Sy
 
 # **RRD File Synchronization Setup Guide**
 
-**Author:** [Your Name]  
-**Date:** [Current Date]  
+**Author:** Kartik Sharma
+**Date:** 11-DEC-2024
 **Version:** 1.0
 
 ---
