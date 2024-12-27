@@ -1,26 +1,27 @@
 
+# Table of Contents
 
-## **Table of Contents**
+1. Introduction
+2. System Overview  
+3. Pre-requisites
+4. Initial Synchronization: Server 106 to Server 254
+   - 4.1. Directory Structure
+   - 4.2. Configuration File
+   - 4.3. Python Synchronization Script
+   - 4.4. Systemd Service Setup
+   - 4.5. Initial Synchronization Steps
+5. Failover Synchronization: Server 254 to Server 106
+   - 5.1. Directory Structure
+   - 5.2. Configuration File
+   - 5.3. Python Synchronization Script
+   - 5.4. Systemd Service Setup
+   - 5.5. Failover Steps
+6. Testing the Synchronization
+7. Troubleshooting
+8. Best Practices and Recommendations
+9. Conclusion
 
-1.  [Introduction](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#1-introduction)
-2.  [System Overview](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#2-system-overview)
-3.  [Pre-requisites](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#3-pre-requisites)
-4.  [Initial Synchronization: Server 106 to Server 254](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#4-initial-synchronization-server-106-to-server-254)
-    -   [4.1. Directory Structure](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#41-directory-structure)
-    -   [4.2. Configuration File](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#42-configuration-file)
-    -   [4.3. Python Synchronization Script](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#43-python-synchronization-script)
-    -   [4.4. Systemd Service Setup](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#44-systemd-service-setup)
-    -   [4.5. Initial Synchronization Steps](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#45-initial-synchronization-steps)
-5.  [Failover Synchronization: Server 254 to Server 106](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#5-failover-synchronization-server-254-to-server-106)
-    -   [5.1. Directory Structure](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#51-directory-structure)
-    -   [5.2. Configuration File](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#52-configuration-file)
-    -   [5.3. Python Synchronization Script](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#53-python-synchronization-script)
-    -   [5.4. Systemd Service Setup](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#54-systemd-service-setup)
-    -   [5.5. Failover Steps](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#55-failover-steps)
-6.  [Testing the Synchronization](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#6-testing-the-synchronization)
-7.  [Troubleshooting](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#7-troubleshooting)
-8.  [Best Practices and Recommendations](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#8-best-practices-and-recommendations)
-9.  [Conclusion](https://chatgpt.com/c/6759d00d-7400-8004-b608-4c4e829ce5fe#9-conclusion)
+
 
 ----------
 
