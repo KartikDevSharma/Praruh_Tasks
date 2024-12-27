@@ -718,7 +718,7 @@ After renaming (removing "secondary"):
         "remote_user": "root",
         "remote_host": "192.168.29.106",
         "remote_dest_dir": "/opt/opennms/rrd_data_move/",
-        "ssh_key_path": "/root/.ssh/id_rsa_rrd_sync_primary"
+        "ssh_key_path": "/root/.ssh/id_rsa_rrd_sync_secondary"
     },
     "logging": {
         "log_file": "/opt/opennms/rrd_monitoring/rrdPyScript.log",
